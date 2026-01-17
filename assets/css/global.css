@@ -6,11 +6,22 @@
 body {
     background-color: black;
     color: white;
+    background: linear-gradient(135deg, #056a77 0%, black 50%, #370664 100%);
+    min-height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
 }
 
 .main {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid white;
-    border-radius: 1rem;
+    border-radius: 1rem ;
+}
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
 }
