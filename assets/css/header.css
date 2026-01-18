@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .header .photo {
@@ -36,6 +37,26 @@
     color: #00ffcc;
 }
 
+.header .card {
+    position: relative;
+}
+
+.header .dots {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    display: flex;
+    gap: 6px;
+}
+
+.header .dots span {
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+}
+
 @media only screen and (min-width: 768px) {
     .header {
         display: grid;
@@ -58,5 +79,21 @@
 
     .header .information {
         grid-area: information; 
+    }
+
+    .header .dots {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        display: flex;
+        gap: 6px;
+    }
+
+    .header .dots span {
+        width: 6px;
+        height: 6px;
+        background: #fff;
+        border-radius: 50%;
     }
 }

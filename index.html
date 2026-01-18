@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 />
@@ -22,18 +24,38 @@
 <body>
     <div class="main">
         <header class="header">
-        <img src="/assets/img/imagem wallay.png" alt="Foto de Wallacy Falcão" class="photo">
+            
+            <img src="/assets/img/imagem wallay.png" alt="Foto de Wallacy Falcão"   class="photo">
 
-        <h1 class="title">Olá, <br>eu sou <br>Wallacy Falcão</h1>
+            <h1 class="title">Olá, <br>eu sou <br>Wallacy Falcão</h1>
 
-        <div class="information">
-            <p><i class="fa-solid fa-code"></i> Desenvolvedor Front-end</p>
-            <p> <i class="fa-solid fa-location-dot"></i>Teresina - PI</p>
-            <p><i class="fa-solid fa-phone"></i> (86) 99999-9999</p>
-            <p><i class="fa-solid fa-envelope"></i> wallacy@example.com</p>
-        </div>
-    </header>
+            <div class="information">
+                <p><i class="fa-solid fa-code"></i> Desenvolvedor Front-end</p>
+                <p> <i class="fa-solid fa-location-dot"></i> Teresina - PI</p>
+                <p><i class="fa-solid fa-phone"></i> (86) 99999-9999</p>
+                <p><i class="fa-solid fa-envelope"></i> wallacy@example.com</p>
+            </div>
+
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">Idiomas<i class="fa-solid fa-chevron-down"></i></button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li><i class="fa-solid fa-check"></i>Português(BR)</li>
+                    <li><i class="fa-solid fa-check"></i>Inglês</li>
+                </ul>
+            </div>
+        </section>
     </div>
+
+    <script src="/assets/js/acordeon.js"></script>
 </body>
 
 </html>

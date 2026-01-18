@@ -1,0 +1,53 @@
+.acordeon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+
+.acordeon.open,
+.acordeon:hover {
+    background-color: #55569E;
+    border-color: #55569E;
+}
+
+
+.acordeon .trigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.acordeon .trigger:hover {
+    cursor: pointer;
+}
+
+.acordeon .trigger i { 
+    transition: transform 0.3s ease; 
+    margin-left: 1rem; } /* Quando o acordeon estiver aberto, rotacione a seta */
+
+.acordeon.open .trigger i { 
+    transform: rotate(180deg); }
+
+.acordeon .content {
+    display: none;
+}
+
+.acordeon.open .content {
+    display: block;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: #55569E;
+    border: none;
+    border-radius: 1rem;
+
+}
