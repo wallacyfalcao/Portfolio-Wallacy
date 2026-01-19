@@ -16,13 +16,16 @@
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/acordeon.css">
     <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experiences.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 />
 </head>
 
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             
             <img src="/assets/img/imagem wallay.png" alt="Foto de Wallacy Falcão"   class="photo">
@@ -32,8 +35,8 @@
             <div class="information">
                 <p><i class="fa-solid fa-code"></i> Desenvolvedor Front-end</p>
                 <p> <i class="fa-solid fa-location-dot"></i> Teresina - PI</p>
-                <p><i class="fa-solid fa-phone"></i> (86) 99999-9999</p>
-                <p><i class="fa-solid fa-envelope"></i> wallacy@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:(86) 99999-9999" target="_blank">(86) 99999-9999</a></p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:wallacy@example.com" target="_blank">wallacy@example.com</a></p>
             </div>
 
             <div class="dots">
@@ -43,9 +46,52 @@
             </div>
         </header>
 
-        <section class="acordeon open">
-            <button class="trigger" type="button">Idiomas<i class="fa-solid fa-chevron-down"></i></button>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades profissionais:</h3>
+                        <ul>
+                            <li>
+                            <img src="/assets/img/icon html.png" alt="HTML5" title="HTML5">
+                            </li>
+                            <li>
+                            <img src="/assets/img/icon css.png" alt="CSS3" title="CSS3">
+                            </li>
+                            <li>
+                            <img src="/assets/img/icon js.png" alt="JavaScript" title="JavaScript">
+                            </li>
+                            <div class="inverted">
+                                <li>
+                                    <img src="/assets/img/icon_github.png" alt="GitHub" title="GitHub">
+                                </li>
+                            </div>
+                        </ul>
+                    </section>
+            
+                    <section class="personal">
+                        <h3>Habilidades pessoais:</h3>
+                        <ul>
+                            <li>Facilidade com tarefas práticas</li>
+                            <li>Comunicação</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Organização</li>
+                            <li>Comprometimento com resultados</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
 
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
             <div class="content">
                 <ul class="languages">
                     <li><i class="fa-solid fa-check"></i>Português(BR)</li>
@@ -53,7 +99,56 @@
                 </ul>
             </div>
         </section>
-    </div>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfolio</h2>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title">Spider-Man-Multiversos</h3>
+                        <a href="https://github.com/wallacyfalcao/Spider-Man-Multiversos.git" target="_blank">
+                            <img src="/assets/img/icon_github.png" alt="logo GitHub">
+                            https://github.com/wallacyfalcao/Spider-Man-Multiversos.git</a>
+                    </li>
+                    <li>
+                        <h3 class="title">Pokedex</h3>
+                        <a href="https://github.com/wallacyfalcao/Pokedex.git" target="_blank">
+                            <img src="/assets/img/icon_github.png" alt="logo GitHub">
+                            https://github.com/wallacyfalcao/Pokedex.git</a>
+                    </li>
+                    <li>
+                        <h3 class="title">projeto-social</h3>
+                        <a href="https://github.com/wallacyfalcao/projeto-social.git" target="_blank">
+                            <img src="/assets/img/icon_github.png" alt="logo GitHub">
+                            https://github.com/wallacyfalcao/projeto-social.git</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+         <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência profissional</h2>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="content">
+                <ul class="experiences">
+                    <li>Não possui ainda experiência profissional</li>
+                    <!--<li>
+                        <h3 class="title">Front-end Developer</h3>
+                        
+                        <p  class="period"><i class="fa-solid fa-calendar"></i>Jan 2020 - Current</p>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea dolorum, esse pariatur natus ipsum quam. Exercitationem, quam. Asperiores dicta dolor, libero blanditiis vel sit porro ipsam accusamus inventore accusantium quisquam.
+                        </p>
+                    </li>-->
+                </ul>
+            </div>
+        </section>
+    </main>
 
     <script src="/assets/js/acordeon.js"></script>
 </body>

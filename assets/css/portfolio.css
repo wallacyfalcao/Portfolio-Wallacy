@@ -1,0 +1,53 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.portfolio li .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio li img {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.125rem;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+.portfolio li a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.portfolio li a img {
+    width: 16px;
+    height: 16px;
+    filter: invert(1);
+}
+
+.portfolio li a:hover {
+    color: #00ffcc;
+}

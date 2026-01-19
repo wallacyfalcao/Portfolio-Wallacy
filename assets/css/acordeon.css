@@ -8,10 +8,12 @@
     transition: 0.5s;
 }
 
-.acordeon.open,
-.acordeon:hover {
+
+.acordeon:hover,
+.acordeon.open {
     background-color: #55569E;
     border-color: #55569E;
+    cursor: pointer;
 }
 
 
@@ -26,6 +28,12 @@
     background-color: transparent;
     color: #fff;
     border: none;
+}
+
+.acordeon .trigger h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: start;
 }
 
 .acordeon .trigger:hover {

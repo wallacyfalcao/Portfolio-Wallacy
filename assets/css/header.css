@@ -37,6 +37,15 @@
     color: #00ffcc;
 }
 
+.information a {
+    color: white;
+    text-decoration: none;
+}
+
+.information a:hover {
+    color: #00ffcc;
+}
+
 .header .card {
     position: relative;
 }
