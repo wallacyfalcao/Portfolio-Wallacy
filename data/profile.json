@@ -38,13 +38,18 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Spider-Man-Multiversos",
+      "url": "https://github.com/wallacyfalcao/Spider-Man-Multiversos",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Pokedex",
+      "url": "https://github.com/wallacyfalcao/Pokedex",
+      "github": true
+    },
+    {
+      "name": "projeto-social",
+      "url": "https://github.com/wallacyfalcao/projeto-social",
       "github": true
     }
   ],
