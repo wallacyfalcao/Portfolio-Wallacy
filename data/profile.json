@@ -9,19 +9,20 @@
     "hardSkills": [
       {
         "name": "HTML5",
-        "logo": "https://github.com/wallacyfalcao/Portfolio-Wallacy/blob/main/data/imgs/html.png"
+        "logo": "https://raw.githubusercontent.com/wallacyfalcao/Portfolio-Wallacy/main/data/imgs/html.png"
       },
       {
         "name": "CSS",
-        "logo": "https://github.com/wallacyfalcao/Portfolio-Wallacy/blob/main/data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/wallacyfalcao/Portfolio-Wallacy/main/data/imgs/css.png"
+
       },
       {
         "name": "JavaScript",
-        "logo": "https://github.com/wallacyfalcao/Portfolio-Wallacy/blob/main/data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/wallacyfalcao/Portfolio-Wallacy/main/data/imgs/js.png"
       },
       {
         "name": "GitHub",
-        "logo": "https://github.com/wallacyfalcao/Portfolio-Wallacy/blob/main/data/imgs/github.png"
+        "logo": "https://raw.githubusercontent.com/wallacyfalcao/Portfolio-Wallacy/main/data/imgs/github.png"
       }
     ],
     "softSkills": [
